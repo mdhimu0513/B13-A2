@@ -37,11 +37,11 @@
 header {
    background-color: #412567;
    width: 1600px;
-   height: 760px;
-   background:url(../assets/hero-bg.png);
+   height: 625px;
+   background:url(../assets/hero-circle.png),url(../assets/hero-bg.png);
    background-repeat: no-repeat;
    background-position: center ;
-   padding-top:30px;
+   padding-bottom: 160px;
 
 
 
@@ -64,9 +64,12 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
    
     
+}
+.text-center{
+    text-align: center;
 }
 nav .menu{
     display: flex;
@@ -79,28 +82,37 @@ nav .menu a{
     color: #ffffff;
     font-size: 16px;
     text-decoration: none ;
-    text-align: center;
+    align-items: center;
  
 
 }
 #banner{
    /* border: 1px solid red;*/
-    margin:10px 625px;
-    justify-content: center;
+    margin:101px 610px;
+    justify-content:space-around;
     align-items: center; 
 }
 .banner-image{
-max-width: ;
-    width: 10px;
-    height: 170px;
-    align-items: center;
+display: flex;
+padding-top: 50px;
 }
+.banner-container p{
+    font-size: 16px;
+    width: 400px;
+    height: 19px;
+    align-items: center;
+    padding-bottom: 60px;
 
+}
 
 
 .banner-content h1{
     color: #ffffff;
     text-align: center;
+    padding-top: 140px;
+    font-size: 60px;
+    font-weight: 800;
+   
  }
 
 .banner-content p{
@@ -116,7 +128,7 @@ max-width: ;
     border-radius:20px;
     padding: 12px 20px;
     gap 5px;
-   font-weight: 600;
+    font-weight: 600;
    
 
 }
@@ -132,6 +144,7 @@ max-width: ;
 }
 #about{
     padding-top: px;
+    
 }
 #about .about-container{
     max-width: 1600px;
@@ -156,4 +169,41 @@ max-width: ;
     font-size: 48px;
     color: #00ff88;
     font-weight: bold;
+}
+.vdo-container{
+    
+}
+footer{
+    width: 1600px;
+    height: 412px;
+   
+   background: url(../assets/footer-bg.png);
+}
+.footer-container h1{
+  
+  text-align: center;
+  font-weight:bolder;
+  font-size:;
+  padding: 120px 0 0 0;
+  margin-bottom: 35px;
+}
+.icons{      
+      text-align: center;
+   
+    
+  
+    
+}
+.icons a{
+    color: #FFFFFF;
+    gap: 30px;
+    text-decoration: none;
+   
+}
+.footer-contant p{
+    color: #FFFFFF;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
 }
