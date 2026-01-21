@@ -16,6 +16,23 @@
     
    
 }
+.section-heading{
+    max-width: 1200px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 160px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
 
 header {
    background-color: #412567;
@@ -73,7 +90,7 @@ nav .menu a{
     align-items: center; 
 }
 .banner-image{
-
+max-width: ;
     width: 10px;
     height: 170px;
     align-items: center;
@@ -113,31 +130,30 @@ nav .menu a{
     font-weight: 600;
 
 }
-.about-container{
-
+#about{
+    padding-top: px;
+}
+#about .about-container{
+    max-width: 1600px;
+    margin:0 auto;
     text-align: center;
     background-color: #1A0B2E;
-    color: #FFFFFF;
-    width: 1600px;
-   height: 760px;
-}
-.section-heading h2{
-   
-    height: 40px;
-    font-weight: bold;
-    font-size: 48px;
-    margin-bottom: 30px;
-    
-}
-.section-heading p{
-  padding: 14px 200px 50px;
-   line-height: 20px;
-   font-size: 16px;
-   margin-bottom: 30px;
-   color: #FFFFFF;
+    padding: 120px 200px 374px 200px;
+
+}#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+
 
 }
-  
-#about .about-container .about-info{
-    display: flex;
+.about-info .info-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+.about-info .info-card h1{
+    font-size: 48px;
+    color: #00ff88;
+    font-weight: bold;
 }
