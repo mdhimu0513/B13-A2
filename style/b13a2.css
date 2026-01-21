@@ -194,8 +194,9 @@ footer{
   
     
 }
-.icons a{
+.footer-container .icons a{
     color: #FFFFFF;
+    margin-right: 107px;
     gap: 30px;
     text-decoration: none;
    
@@ -207,3 +208,16 @@ footer{
     line-height: 24px;
     text-align: center;
 }
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width: 576px){
+    #about .about-container{
+        padding: 15px;
+    }
+   header{
+    width: x;
+   }
+}
+    
